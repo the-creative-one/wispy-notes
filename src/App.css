@@ -1,0 +1,11 @@
+.form-control:focus {
+    border-color: #4e4d4d7d;
+    box-shadow: none;
+}
+.form-check-input:focus {
+    border-color: #4a484868;
+    box-shadow: none;
+}
+i{
+    cursor: pointer;
+}
