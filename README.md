@@ -27,6 +27,35 @@ Ensure you have the following installed on your system:
    ```sh
    git clone https://github.com/yourusername/wispy-notes.git
 2. Navigate to the project directory
-  ```sh
-  cd wispy-notes 
+   ```sh
+    cd wispy-notes
 3. Install NPM packages
+   ```sh
+   npm install
+4. Create a .env file in the root directory and add your MongoDB URI
+   ```sh
+   MONGODB_URI=your_mongodb_uri_here
+6. Start the server
+   ```sh
+   npm start
+
+Visit `http://localhost:3000` to view the application.
+
+## Contributing
+
+Contributions to Wispy Notes are welcome!
+
+1. Fork the project.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+
+## Contact
+
+- **Project Link**: [https://github.com/the-creative-one/wispy-notes](https://github.com/the-creative-one/wispy-notes)
+
+Enjoy note-taking with Wispy Notes!
+
+
